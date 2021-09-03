@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1225px;
+    margin: auto;
+}
+
+html {
+    font-family: 'Prompt', sans-serif;
+}
+
+.header__block {
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__block {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #e3e3e3;
+    padding-right: 70px;
+}
+
+.logo__img__link {
+    margin-right: 13px;
+}
+
+.logo__text {
+    font-family: 'Oswald', sans-serif;
+    color: #333333;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.burger__menu__block {
+    display: flex;
+    align-items: center;
+    margin-left: -350px;
+}
+
+.burger__menu__img {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.burger__menu__text {
+    color: #219635;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.phone__block {
+    display: flex;
+}
+
+.call {
+    color: #219635;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+.call:hover {
+    text-decoration: underline #219635;
+}
+
+.number__link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 17px;
+    color: #333333;
+    display: flex;
+}
+
+.number__link:hover {
+    color: #219635;
+}
+
+.number__img {
+    margin-right: 10px;
+}
+
+.aboutus__block {
+    padding-top: 81px;
+    padding-bottom: 100px;
+}
+
+.section__title {
+    margin-bottom: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: #333333;
+    border-left: 6px solid #219653;
+    padding-left: 20px;
+    max-height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.aboutus__main {
+    line-height: 172%;
+}
+
+.clients__section__title {
+    margin-bottom: 62px;
+}
+
+.clients__main {
+    margin-top: -27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client__card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 125px;
+    justify-content: center;
+}
+
+.client__card__name {
+    position: absolute;
+    bottom: -27px;
+    font-weight: 600;
+}
